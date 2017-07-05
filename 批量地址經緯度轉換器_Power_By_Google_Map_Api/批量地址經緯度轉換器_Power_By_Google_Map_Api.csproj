@@ -84,11 +84,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\2012070508485491.jpg" />
-    <Content Include="Resources\END.gif" />
-    <None Include="Resources\tumblr_mbcdeb2a1s1rgz8h3o1_1280.gif" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -59,35 +59,5 @@ namespace 批量地址經緯度轉換器_Power_By_Google_Map_Api.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
-        /// </summary>
-        internal static System.Drawing.Bitmap _2012070508485491 {
-            get {
-                object obj = ResourceManager.GetObject("2012070508485491", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
-        /// </summary>
-        internal static System.Drawing.Bitmap END {
-            get {
-                object obj = ResourceManager.GetObject("END", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
-        /// </summary>
-        internal static System.Drawing.Bitmap tumblr_mbcdeb2a1s1rgz8h3o1_1280 {
-            get {
-                object obj = ResourceManager.GetObject("tumblr_mbcdeb2a1s1rgz8h3o1_1280", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }

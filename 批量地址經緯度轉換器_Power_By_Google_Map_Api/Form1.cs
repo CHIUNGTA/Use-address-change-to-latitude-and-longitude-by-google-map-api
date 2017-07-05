@@ -79,18 +79,17 @@ namespace 批量地址經緯度轉換器_Power_By_Google_Map_Api
                 Rootobject obj = GetDataFromMapApi(line);
                 try
                 {
-
-                    //label4.Text=(Id + ":" + line + "," + obj.results[0].geometry.location.lat + "," + obj.results[0].geometry.location.lng);
+                    //label4.Text = (Id + ":" + line + "," + obj.results[0].geometry.location.lat + "," + obj.results[0].geometry.location.lng);
                     SuccessFile.WriteLine(Id + "," + line + "," + obj.results[0].geometry.location.lat + "," + obj.results[0].geometry.location.lng);
                 }
                 catch
                 {
-                    //label4.Text=($"第{Id}筆資料錯誤:" + line);
+                    //label4.Text = ($"第{Id}筆資料錯誤:" + line);
                     FailFile.WriteLine($"第{Id}筆資料錯誤" + line);
 
                 }
+                    Thread.Sleep(1000);
                 if (Id % 100 == 0)
-                    Thread.Sleep(100);
                 Id++;
             }
             SuccessFile.Close();

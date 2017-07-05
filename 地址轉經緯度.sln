@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "地址轉經緯度", "地址轉經緯度\地址轉經緯度.csproj", "{C46462E1-C64D-4681-95D8-25BFE55A954C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadText", "ReadText\ReadText.csproj", "{56C526E6-F0DD-426E-A23F-E199F3F1782B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateTXT", "CreateTXT\CreateTXT.csproj", "{A851DB9E-598A-4B20-A5FC-BFD58BFDC725}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{F43FFBE0-A42D-4EAF-A05F-368119DA4AE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "批量地址經緯度轉換器_Power_By_Google_Map_Api", "批量地址經緯度轉換器_Power_By_Google_Map_Api\批量地址經緯度轉換器_Power_By_Google_Map_Api.csproj", "{01069516-C37C-4D17-AB70-E9601FE39EAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C46462E1-C64D-4681-95D8-25BFE55A954C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C46462E1-C64D-4681-95D8-25BFE55A954C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C46462E1-C64D-4681-95D8-25BFE55A954C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C46462E1-C64D-4681-95D8-25BFE55A954C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56C526E6-F0DD-426E-A23F-E199F3F1782B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C526E6-F0DD-426E-A23F-E199F3F1782B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C526E6-F0DD-426E-A23F-E199F3F1782B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C526E6-F0DD-426E-A23F-E199F3F1782B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A851DB9E-598A-4B20-A5FC-BFD58BFDC725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A851DB9E-598A-4B20-A5FC-BFD58BFDC725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A851DB9E-598A-4B20-A5FC-BFD58BFDC725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A851DB9E-598A-4B20-A5FC-BFD58BFDC725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F43FFBE0-A42D-4EAF-A05F-368119DA4AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F43FFBE0-A42D-4EAF-A05F-368119DA4AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F43FFBE0-A42D-4EAF-A05F-368119DA4AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F43FFBE0-A42D-4EAF-A05F-368119DA4AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01069516-C37C-4D17-AB70-E9601FE39EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01069516-C37C-4D17-AB70-E9601FE39EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01069516-C37C-4D17-AB70-E9601FE39EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01069516-C37C-4D17-AB70-E9601FE39EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01069516-C37C-4D17-AB70-E9601FE39EAC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

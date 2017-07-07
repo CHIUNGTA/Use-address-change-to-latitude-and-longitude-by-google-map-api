@@ -88,9 +88,9 @@ namespace 批量地址經緯度轉換器_Power_By_Google_Map_Api
                     FailFile.WriteLine($"第{Id}筆資料錯誤" + line);
 
                 }
-                    Thread.Sleep(1000);
-                if (Id % 100 == 0)
                 Id++;
+                if (Id % 100 == 0)
+                    Thread.Sleep(1);
             }
             SuccessFile.Close();
             FailFile.Close();

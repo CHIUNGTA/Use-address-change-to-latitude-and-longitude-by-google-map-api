@@ -91,6 +91,7 @@ namespace 批量地址經緯度轉換器_Power_By_Google_Map_Api
                 Id++;
                 if (Id % 100 == 0)
                     Thread.Sleep(1);
+                //測試測試測試測試測試測試測試測試測試測試測試測試測試測試
             }
             SuccessFile.Close();
             FailFile.Close();

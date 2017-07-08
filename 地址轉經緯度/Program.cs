@@ -17,7 +17,7 @@ namespace 地址轉經緯度
         static void Main(string[] args)
         {
             again:
-            Console.WriteLine("請輸入轉換文字檔之連結地址");
+            Console.WriteLine("請輸入轉換文字檔(.txt)之連結地址");
             string add = Console.ReadLine();
             try
             {
@@ -26,7 +26,6 @@ namespace 地址轉經緯度
                 //Create Success File & Fail File
                 StreamWriter SuccessFile = new StreamWriter("D:\\轉檔完成檔-成功.txt");   
                 StreamWriter FailFile = new StreamWriter("D:\\轉檔完成檔-失敗.txt");      
-
                 string line;
                 var Id = 1;
                 while ((line = file.ReadLine()) != null)
@@ -49,13 +48,12 @@ namespace 地址轉經緯度
                 }
                 SuccessFile.Close();
                 FailFile.Close();
-                Console.WriteLine("OK，請至D槽查看");
+                Console.WriteLine("OK，請至D:查看");
                 Console.ReadLine();
             }
             catch
             {
                 Console.WriteLine("請輸入正確目標地址");
-                Console.ReadLine();
                 goto again;
             }
         }

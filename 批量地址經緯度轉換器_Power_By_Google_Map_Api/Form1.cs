@@ -86,7 +86,6 @@ namespace 批量地址經緯度轉換器_Power_By_Google_Map_Api
                 {
                     //label4.Text = ($"第{Id}筆資料錯誤:" + line);
                     FailFile.WriteLine($"第{Id}筆資料錯誤" + line);
-
                 }
                 Id++;
                 if (Id % 100 == 0)
